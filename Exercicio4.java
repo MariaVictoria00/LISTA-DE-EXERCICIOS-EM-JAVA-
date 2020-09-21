@@ -4,6 +4,12 @@ import java.util.Scanner;
 
 public class Exercicio4 {
 	 public static void main(String[] args) {
+		 
+		 /* REGRA DO NUMERO PRIMO 
+		  possuem somente dois divisores, ou seja, são divisíveis por 1 e por ele mesmo.(exceto o um)
+		 */
+		 
+		 
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("DIGITE UM NUMERO");
 		double numero=entrada.nextDouble();
