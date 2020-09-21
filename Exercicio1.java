@@ -4,11 +4,12 @@ import java.util.Scanner;
 
 public class Exercicio1 {
 	public static void main(String[] args) {
+		//ler valor
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Digite um valor");
 		int valor = entrada.nextInt();
 		
-		
+		// lógica
 		if(valor>=0 &&valor<=10&& valor%2==0) {
 			System.out.println("O numero faz parte do intervalo de 0 a Dez e é par");
 		}
@@ -17,7 +18,7 @@ public class Exercicio1 {
 		}
 		
 		else {
-			System.out.println("Nao faz parte");
+			System.out.println("Nao faz  do intervalo ");
 		}
 		
 	}
