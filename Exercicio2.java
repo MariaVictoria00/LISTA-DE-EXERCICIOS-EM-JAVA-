@@ -3,12 +3,12 @@ package ExerciciosDoModulo;
 import java.util.Scanner;
 
 
-//
-//Anos divisíveis pelo número 4 são considerados bissextos.
-//
-//Anos divisíveis por 100 não são bissextos.
-//
-//Anos divisíveis por 400 são bissextos.
+/*   RGRAS PARA ANO BISSEXTO
+De 4 em 4 anos é ano bissexto.
+De 100 em 100 anos não é ano bissexto.
+De 400 em 400 anos é ano bissexto.
+Prevalecem as últimas regras sobre as primeiras*/
+
 public class Exercicio2 {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
